@@ -1,18 +1,17 @@
 ---
 title: Logo Project
 
-notitle: true
+title: Fondecyt 3160182
 
 description: |
-  This project has a sweet logo!
+  Efficient GPU Computing in Complex Particle-based Domains
 
 people:
-  - storm
-  - grad-b
-  - ugrad-c
+  - prof-cnavarro
+  - collab-bbustos
 
 layout: project
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Xmencomic-logo.svg/2000px-Xmencomic-logo.svg.png"
+image: "/img/fondecyt3160182.png"
 last-updated: 2017-04-11
 ---
 

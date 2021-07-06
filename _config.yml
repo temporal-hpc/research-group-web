@@ -1,4 +1,4 @@
-name: Temporal Research Group
+name: Temporal
 url: http://temporal.uach.cl
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
@@ -14,9 +14,9 @@ roles:
   - key: faculty
     name: Faculty
   - key: staff
-    name: Staff
+    name: Technical Staff
   - key: postdoc
-    name: Researchers
+    name: Postdocs
   - key: grad
     name: Graduate Students
   - key: ugrad

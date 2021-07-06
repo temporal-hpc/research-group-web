@@ -26,6 +26,8 @@ clean:
 DEPLOY_HOST ?= temporal.uach.cl
 DEPLOY_PATH ?= www/
 RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e ssh
+SCP := scp -r 
 
 deploy: clean build
-	$(RSYNC) _site/ $(DEPLOY_HOST):$(DEPLOY_PATH)
+	#$(RSYNC) _site/ $(DEPLOY_HOST):$(DEPLOY_PATH) --port=22337
+	$(RSYNC) -r _site/* root@carbon:/opt/temporal/website/

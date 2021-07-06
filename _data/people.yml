@@ -1,161 +1,170 @@
-
-prof-a:
-    display_name: "Prof A"
+# ---------------
+# FACULTY MEMBERS 
+# ---------------
+prof-cnavarro:
+    display_name: "Dr. Cristóbal A. Navarro"
+    webpage: "https://scholar.google.cl/citations?user=RNYDdjEAAAAJ&hl=en"
+    image: /img/people/prof-cnavarro.jpg
+    github: https://github.com/crinavar
     role: faculty
+    bio: "UACh"
 
-prof-b:
-    display_name: "Prof B"
+prof-nhitschfeld:
+    display_name: "Dr. Nancy Hitchfeld"
+    webpage: "https://users.dcc.uchile.cl/~nancy/"
+    image: /img/people/prof-nhitschfeld.jpeg
     role: faculty
+    bio: "DCC, UChile"
 
-prof-c:
-    display_name: "Prof C"
+prof-hferrada:
+    display_name: "Dr. Hector Ferrada"
+    webpage: "https://inf.uach.cl/equipo/hector-ferrada/"
+    image: /img/people/prof-hferrada.jpeg
     role: faculty
+    bio: "UACh"
 
-profx:
-    display_name: "Professor X"
-    webpage: "http://en.wikipedia.org/wiki/Professor_X"
-    github: profx
-    role: faculty
-    image: /img/people/prof-x.png
-    bio: Professor
 
-scott:
-    display_name: "Scott Summers"
-    webpage: "http://en.wikipedia.org/wiki/Cyclops_(comics)"
+
+
+
+
+
+
+# ---------------
+# COLLAB MEMBERS 
+# ---------------
+collab-rbarrientos:
+    display_name: "Dr. Ricardo Barrientos"
+    webpage: "http://www.ribarrie.cl"
+    role: collab
+    bio: "Catholic University of Maule, Chile"
+
+collab-mromero:
+    display_name: "Dr. Miguel Romero"
+    webpage: "http://mromero.cl/"
+    role: collab
+    bio: "Adolfo Ibáñez University, Chile"
+
+collab-bcrespin:
+    display_name: "Dr. Benoit Crespin"
+    webpage: "http://www-perso.unilim.fr/benoit.crespin/pluxml/"
+    role: collab
+    bio: "University of Limoges, France"
+
+collab-bbustos:
+    display_name: "Dr. Benjamin Bustos"
+    webpage: "https://users.dcc.uchile.cl/~bebustos/"
+    image: /img/people/collab-bbustos.png
+    role: collab
+    bio: "DCC, UChile"
+
+
+
+
+# ------------------
+# TECHNICAL MEMBERS
+# ------------------
+engineer:
+    display_name: "GPU Programming Engineer"
     role: staff
     image: /img/people/scott.png
-    bio: aka Cyclops
+    bio: "Position for 2022"
 
-wolverine:
-    display_name: "Wolverine"
-    webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
-    github: wolverine
-    role: postdoc
 
-storm:
-    display_name: "Storm"
-    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
+
+
+
+
+
+
+# ---------------
+# GRADUATE STUDENTS
+# ---------------
+fquezada:
+    display_name: "Felipe Quezada"
     role: grad
-    image: /img/people/storm.png
+    bio: "MSc student at Institute of Informatics, UACh."
 
-grad-a:
-    display_name: "Grad A"
+rmelita:
+    display_name: "Roberto Melita"
     role: grad
+    bio: "MSc student at Institute of Informatics, UACh."
 
-grad-b:
-    display_name: "Graduate Student B With Long Name"
+rstevenson:
+    display_name: "Rodrigo Stevenson"
     role: grad
+    bio: "MSc student at Institute of Informatics, UACh."
 
-grad-c:
-    display_name: "Grad C"
+emeneses:
+    display_name: "Enzo Meneses"
     role: grad
+    bio: "MSc student at Institute of Informatics, UACh."
 
-grad-d:
-    display_name: "Grad D"
+rcarrasco:
+    display_name: "Roberto Carrasco"
     role: grad
+    bio: "PhD Student at Department of Computer Science, Uchile."
 
-grad-e:
-    display_name: "Grad E"
-    role: grad
 
-grad-f:
-    display_name: "Grad F"
-    role: grad
 
-grad-g:
-    display_name: "Grad G"
-    role: grad
 
-grad-h:
-    display_name: "Grad H"
-    role: grad
 
-grad-i:
-    display_name: "Grad I"
-    role: grad
 
-alum-a:
-    display_name: "Alum A"
+
+
+
+# ---------------
+# ALUMNI
+# ---------------
+jchango:
+    display_name: "Juan Chango"
     role: alum
-    bio: "Ph.D., 2013. Now at Microsoft Research."
+    bio: "ARD for GPU Sound Propagation, UACh."
 
-alum-b:
-    display_name: "Alum B With Way Longer Name"
-    role: alum
 
-alum-c:
-    display_name: "Alum C"
-    role: alum
-    webpage: "https://www.google.com"
 
-alum-d:
-    display_name: "Alum D"
-    role: alum
 
-alum-e:
-    display_name: "Alum E"
-    role: alum
 
-alum-f:
-    display_name: "Alum F"
-    role: alum
 
-alum-g:
-    display_name: "Alum G"
-    role: alum
 
-alum-h:
-    display_name: "Alum H"
-    role: alum
 
-alum-i:
-    display_name: "Alum I"
-    role: alum
 
-collab-a:
-    display_name: "Collaborator A"
-    role: collab
 
-collab-b:
-    display_name: "Collaborator B With Long Name"
-    role: collab
 
-collab-c:
-    display_name: "Collaborator C"
-    role: collab
 
-collab-d:
-    display_name: "Collaborator D"
-    role: collab
-
-collab-e:
-    display_name: "Collaborator E"
-    role: collab
-
+# -----------------------
+# CURRENT UNDERGRADUATES
+# -----------------------
 ugrad-a:
-    display_name: "Ugrad A"
+    display_name: "Carlos Schoenfeldt"
     role: ugrad
+    bio: "Austral University of Chile"
 
 ugrad-b:
-    display_name: "Ugrad Student B With Long Name"
+    display_name: "Diego Rojas"
     role: ugrad
+    bio: "Austral University of Chile"
 
-ugrad-c:
-    display_name: "Ugrad C"
-    role: ugrad
 
-ugrad-d:
-    display_name: "Ugrad D"
-    role: ugrad
 
-ugrad-e:
-    display_name: "Ugrad E"
-    role: ugrad
 
-ugrad-alum-a:
-    display_name: "Past Ugrad A"
+
+
+
+# --------------------
+# PAST UNDERGRADUATES
+# --------------------
+ugrad-alum-cvargas:
+    display_name: "Cesar Vargas"
     role: ugrad-alum
+    bio: "Dynamic Path Tracing on GPU, 2018, UACh"
 
-ugrad-alum-b:
-    display_name: "Past Ugrad Student B With Long Name"
+ugrad-alum-ggonzalez:
+    display_name: "Gabriel Gonzalez"
     role: ugrad-alum
+    bio: "GPU Thread Mapping, 2018, UACh"
+
+ugrad-alum-bsilva:
+    display_name: "Bruno Silva"
+    role: ugrad-alum
+    bio: "3D University APP, 2019, UACh"
