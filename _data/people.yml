@@ -6,22 +6,22 @@ prof-cnavarro:
     webpage: "https://scholar.google.cl/citations?user=RNYDdjEAAAAJ&hl=en"
     image: /img/people/prof-cnavarro.jpg
     github: https://github.com/crinavar
-    role: faculty
-    bio: "UACh"
+    role: core
+    bio: "Instituto de Informática, UACh, Chile"
 
 prof-nhitschfeld:
     display_name: "Dr. Nancy Hitchfeld"
     webpage: "https://users.dcc.uchile.cl/~nancy/"
     image: /img/people/prof-nhitschfeld.jpeg
-    role: faculty
-    bio: "DCC, UChile"
+    role: core
+    bio: "DCC, Universidad de Chile, Chile"
 
 prof-hferrada:
     display_name: "Dr. Hector Ferrada"
     webpage: "https://inf.uach.cl/equipo/hector-ferrada/"
     image: /img/people/prof-hferrada.jpeg
-    role: faculty
-    bio: "UACh"
+    role: core
+    bio: "Instituto de Informática, UACh, Chile"
 
 
 
@@ -38,37 +38,38 @@ collab-rbarrientos:
     webpage: "http://www.ribarrie.cl"
     role: collab
     bio: "Catholic University of Maule, Chile"
+    image: /img/people/rbarrientos.png
 
 collab-mromero:
     display_name: "Dr. Miguel Romero"
     webpage: "http://mromero.cl/"
     role: collab
     bio: "Adolfo Ibáñez University, Chile"
+    image: /img/people/mromero.jpg
 
 collab-bcrespin:
     display_name: "Dr. Benoit Crespin"
     webpage: "http://www-perso.unilim.fr/benoit.crespin/pluxml/"
     role: collab
     bio: "University of Limoges, France"
+    image: /img/people/bcrespin.png
 
 collab-bbustos:
     display_name: "Dr. Benjamin Bustos"
     webpage: "https://users.dcc.uchile.cl/~bebustos/"
     image: /img/people/collab-bbustos.png
     role: collab
-    bio: "DCC, UChile"
+    bio: "DCC, Universidad de Chile, Chile"
+
+collab-mgonzalez:
+    display_name: "Dr. Mario Gonzalez"
+    webpage: "https://www.acusticauach.cl/?page_id=572"
+    image: /img/people/collab-mgonzalez.png
+    role: collab
+    bio: "Instituto Acustica, UACh, Chile"
 
 
 
-
-# ------------------
-# TECHNICAL MEMBERS
-# ------------------
-engineer:
-    display_name: "GPU Programming Engineer"
-    role: staff
-    image: /img/people/scott.png
-    bio: "Position for 2022"
 
 
 
@@ -78,35 +79,55 @@ engineer:
 
 
 # ---------------
-# GRADUATE STUDENTS
+# STUDENTS
 # ---------------
+rcarrasco:
+    display_name: "Roberto Carrasco"
+    role: student
+    image: /img/people/rcarrasco.png
+    bio: "PhD Student at DCC, Uchile, Chile."
+
 fquezada:
     display_name: "Felipe Quezada"
-    role: grad
-    bio: "MSc student at Institute of Informatics, UACh."
+    role: student
+    image: /img/people/fquezada.png
+    bio: "MSc student at MIN, UACh, Chile."
 
 rmelita:
     display_name: "Roberto Melita"
-    role: grad
-    bio: "MSc student at Institute of Informatics, UACh."
+    role: student
+    image: /img/people/rmelita.png
+    bio: "MSc student at MIN, UACh, Chile."
 
 rstevenson:
     display_name: "Rodrigo Stevenson"
-    role: grad
-    bio: "MSc student at Institute of Informatics, UACh."
+    role: student 
+    image: /img/people/rstevenson.png
+    bio: "MSc student at MIN, UACh, Chile."
 
 emeneses:
     display_name: "Enzo Meneses"
-    role: grad
-    bio: "MSc student at Institute of Informatics, UACh."
+    role: student
+    image: /img/people/emeneses.png
+    bio: "MSc student at MIN, UACh, Chile."
 
-rcarrasco:
-    display_name: "Roberto Carrasco"
-    role: grad
-    bio: "PhD Student at Department of Computer Science, Uchile."
+cschoenfeldt:
+    display_name: "Carlos Schoenfeldt"
+    role: student
+    bio: "Undergrduate, UACh, Chile."
+    image: /img/people/cschoenfeldt.png
 
+drojas:
+    display_name: "Diego Rojas"
+    role: student
+    bio: "Undergraduate, UACh, Chile."
+    image: /img/people/drojas.png
 
-
+fcarter:
+    display_name: "Francisco Carter"
+    role: student
+    bio: "Universidad de Chile"
+    image: /img/people/fcarter.jpg
 
 
 
@@ -119,52 +140,29 @@ rcarrasco:
 jchango:
     display_name: "Juan Chango"
     role: alum
-    bio: "ARD for GPU Sound Propagation, UACh."
+    bio: "[2020, MSc] for GPU Sound Propagation."
 
-
-
-
-
-
-
-
-
-
-
-
-# -----------------------
-# CURRENT UNDERGRADUATES
-# -----------------------
-ugrad-a:
-    display_name: "Carlos Schoenfeldt"
-    role: ugrad
-    bio: "Austral University of Chile"
-
-ugrad-b:
-    display_name: "Diego Rojas"
-    role: ugrad
-    bio: "Austral University of Chile"
-
-
-
-
-
-
-
-# --------------------
-# PAST UNDERGRADUATES
-# --------------------
-ugrad-alum-cvargas:
-    display_name: "Cesar Vargas"
-    role: ugrad-alum
-    bio: "Dynamic Path Tracing on GPU, 2018, UACh"
-
-ugrad-alum-ggonzalez:
-    display_name: "Gabriel Gonzalez"
-    role: ugrad-alum
-    bio: "GPU Thread Mapping, 2018, UACh"
-
-ugrad-alum-bsilva:
+bsilva:
     display_name: "Bruno Silva"
-    role: ugrad-alum
-    bio: "3D University APP, 2019, UACh"
+    role: alum
+    bio: "[2019, Eng] 3D University APP"
+
+cvargas:
+    display_name: "Cesar Vargas"
+    role: alum
+    bio: "[2018, Eng] Dynamic Path Tracing on GPU"
+
+ggonzalez:
+    display_name: "Gabriel Gonzalez"
+    role: alum
+    bio: "[2018, Eng] GPU Thread Mapping on Tetrahedrons"
+
+
+
+
+
+
+
+# ------------------
+# TECHNICAL MEMBERS
+# ------------------

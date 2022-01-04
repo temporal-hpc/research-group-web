@@ -2,8 +2,8 @@
 layout: default
 title: Code
 ---
-This is an example of an additional page you could add to the site (and its navigation).
+Our codes are kept at our github repository. Feel free to use our codes according to their
+licenses.
 
-If you like this template, find our group's other code here:
+ * [Temporal on GitHub](https://github.com/temporal-hpc/)
 
- * [uwsampa on GitHub](https://github.com/uwsampa/)
