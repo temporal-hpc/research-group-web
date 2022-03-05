@@ -6,8 +6,8 @@ title: Fondecyt 3160182
 description: |
   Efficient GPU Computing in Complex Particle-based Domains
 
-people:
-  - prof-cnavarro
+#people:
+#  - prof-cnavarro
 
 layout: project
 image: "/img/fondecyt3160182.png"

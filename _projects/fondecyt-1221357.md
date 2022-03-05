@@ -6,11 +6,11 @@ title: Fondecyt Regular 1221357
 description: |
   Combining Tensor Cores with Ray-Tracing Cores for GPU-based Simulations
 
-people:
-  - prof-cnavarro
-  - prof-hferrada
-  - prof-nhitschfeld
-  - fquezada
+#people:
+#  - prof-cnavarro
+#  - prof-hferrada
+#  - prof-nhitschfeld
+#  - fquezada
 
 layout: project
 image: "/img/fondecyt1221357.png"
