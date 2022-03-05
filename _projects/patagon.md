@@ -6,8 +6,9 @@ title: Patagón
 description: |
   Patagón: GPU-based Supercomputer
 
-#people:
-#  - prof-cnavarro
+people:
+  - prof-cnavarro
+  - fquezada
 
 layout: project
 image: "/img/patagon.png"
