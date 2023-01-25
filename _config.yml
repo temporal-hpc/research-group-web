@@ -13,6 +13,8 @@ permalink: /blog/:year/:month/:day/:title.html
 roles:
   - key: core
     name: Core Researchers
+  - key: assistant
+    name: Research Assistants
   - key: student
     name: Students
   - key: collab
@@ -39,7 +41,7 @@ navigation:
     link: /
   - title: People
     link: /#people
-  - title: Research
+  - title: Projects
     link: /research.html
   - title: Publications
     link: /publications.html

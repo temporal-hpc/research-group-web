@@ -71,6 +71,15 @@ collab-mgonzalez:
 
 
 
+# -------------------
+# RESEARCH ASSISTANTS
+# -------------------
+fquezada:
+    display_name: "Felipe Quezada"
+    webpage: "https://github.com/kezada94"
+    role: assistant
+    image: /img/people/fquezada.png
+    bio: "MSc, UACh, Chile."
 
 
 
@@ -87,17 +96,6 @@ rcarrasco:
     image: /img/people/rcarrasco.png
     bio: "PhD Student at DCC, Uchile, Chile."
 
-fquezada:
-    display_name: "Felipe Quezada"
-    role: student
-    image: /img/people/fquezada.png
-    bio: "MSc student at MIN, UACh, Chile."
-
-rmelita:
-    display_name: "Roberto Melita"
-    role: student
-    image: /img/people/rmelita.png
-    bio: "MSc student at MIN, UACh, Chile."
 
 rstevenson:
     display_name: "Rodrigo Stevenson"
@@ -117,12 +115,6 @@ cschoenfeldt:
     bio: "Undergrduate, UACh, Chile."
     image: /img/people/cschoenfeldt.png
 
-drojas:
-    display_name: "Diego Rojas"
-    role: student
-    bio: "Undergraduate, UACh, Chile."
-    image: /img/people/drojas.png
-
 fcarter:
     display_name: "Francisco Carter"
     role: student
@@ -134,13 +126,32 @@ fcarter:
 
 
 
+
+
+
+
+
+
+
 # ---------------
 # ALUMNI
 # ---------------
+drojas:
+    display_name: "Diego Rojas"
+    role: alum
+    bio: "[2022, Eng] Open Source Genetic Algorithm"
+    image: /img/people/drojas.png
+
+rmelita:
+    display_name: "Roberto Melita"
+    role: alum
+    image: /img/people/rmelita.png
+    bio: "[2020, Eng] CA acceleration in GPU"
+
 jchango:
     display_name: "Juan Chango"
     role: alum
-    bio: "[2020, MSc] for GPU Sound Propagation."
+    bio: "[2020, MSc] GPU Sound Propagation."
 
 bsilva:
     display_name: "Bruno Silva"

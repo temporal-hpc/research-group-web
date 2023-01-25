@@ -5,17 +5,17 @@ notitle: true
 
 # groups of columns of {roles: list, width: num, image: bool}
 role-tables:
-- - roles: [core]
+- - roles: [core,assistant]
     width: 8
     image: true
 - - roles: [student]
-    width: 8
+    width: 16
     image: true
 - - roles: [collab]
-    width: 8
+    width: 16
     image: true
 - - roles: [alum]
-    width: 8
+    width: 16
     image: false
 ---
 <div class="jumbotron">
@@ -35,11 +35,11 @@ role-tables:
 }
 
 .left {
-  width: 64%;
+  width: 55%;
 }
 
 .right {
-  width: 36%;
+  width: 45%;
 }
 
 /* Clear floats after the columns */
@@ -58,6 +58,7 @@ role-tables:
 </style>
 <div class="row">
     <div class="column left">
+        <!--
         <h2>Projects</h2>
         <div class="card-columns">
             {% comment %}
@@ -71,23 +72,24 @@ role-tables:
                 {% endif %}
             {% endfor %}
         </div>
+        -->
+        <div id="people">
+            <h2>People</h2>
+            {% for role-table in page.role-tables %}
+                <section class="people row justify-content-between">
+                    {% for role-column in role-table %}
+                        <div class="col-md-{{ role-column.width }}">
+                            {% for role in role-column.roles %}
+                                {% include role-people.html role=role image=role-column.image %}
+                            {% endfor %}
+                        </div>
+                    {% endfor %}
+                </section>
+            {% endfor %}
+        </div>
 
     </div>
   <div class="column right">
-        <a class="twitter-timeline" data-height="500" data-theme="dark" href="https://twitter.com/Tempora72704468?ref_src=twsrc%5Etfw">Tweets by Tempora72704468</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" align="center" data-height="700" data-width="100%" data-theme="dark" href="https://twitter.com/Tempora72704468?ref_src=twsrc%5Etfw">Tweets by Tempora72704468</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
-</div>
-<div id="people">
-    <h2>People</h2>
-    {% for role-table in page.role-tables %}
-        <section class="people row justify-content-between">
-            {% for role-column in role-table %}
-                <div class="col-md-{{ role-column.width }}">
-                    {% for role in role-column.roles %}
-                        {% include role-people.html role=role image=role-column.image %}
-                    {% endfor %}
-                </div>
-            {% endfor %}
-        </section>
-    {% endfor %}
 </div>
