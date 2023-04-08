@@ -136,6 +136,11 @@ fcarter:
 # ---------------
 # ALUMNI
 # ---------------
+ehopperdietzel:
+    display_name: "Eduardo Hopperdietzel"
+    role: alum
+    bio: "[2023, Eng] Louvre Library for Composers"
+
 drojas:
     display_name: "Diego Rojas"
     role: alum
